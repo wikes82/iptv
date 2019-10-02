@@ -118,8 +118,6 @@ http://212.26.132.86/hls/mb_ua_2500.m3u8?fluxustv.m3u8
 #EXTINF:-1 tvg-id="newsone-ua" tvg-name="NewsOne" tvg-logo="https://i.imgur.com/njpGp3R.jpg" group-title="",NewsOne
 http://cdn1.live-tv.od.ua:8081/ktkod/ktkod-abr/ktkod/ktkod/playlist.m3u8
 #EXTINF:-1 tvg-id="o-tv" tvg-name="OTV" tvg-logo="https://i.imgur.com/wCrNtxp.png" group-title="Music",OTV
-http://212.26.146.148/hls/otv.m3u8
-#EXTINF:-1 tvg-id="o-tv" tvg-name="OTV" tvg-logo="https://i.imgur.com/wCrNtxp.png" group-title="Music",OTV
 http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8
 #EXTINF:-1 tvg-id="o-tv" tvg-name="OTV" tvg-logo="https://i.imgur.com/wCrNtxp.png" group-title="Music",OTV
 http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8?codec=mpeg4
@@ -249,6 +247,8 @@ http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8?codec=mpeg4
 http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8?codec=mpeg4&app=playlist
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="",Круг (Одесса)
 http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr/krugod/krugod/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/s6YES8x.jpg" group-title="",Крым 24
+http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="m1-ua" tvg-name="М1" tvg-logo="https://iptvx.one/icn/m1-ua.png" group-title="",М1
 http://live.m2.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="m2-ua" tvg-name="М2" tvg-logo="http://m2.tv/assets/logo-231ef42a791ac4e9287a94c6dd492ebd740ad3bea40f789cd489683b758ff65d.png" group-title="Music",М2
