@@ -19,6 +19,8 @@ https://eu-de-edge-01.zetcast.net/ShetlandWebcams/Studio1ABR/playlist.m3u8
 http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/QMzYNJf.jpg" group-title="Music",A2i TV Musique
 http://162.212.178.131:1935/live/Ai2tvmusique/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ZTUx6q3.png" group-title="Music",Afrobit
+http://connectiktv.ddns.net:5000/afrobithd/afrobithd/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/mix.png" group-title="Music",Akaram Mix
 http://akaram.zecast.net/akaram-live/akarammix1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/VaGEoBo.png" group-title="Music",AlbMUSIC
@@ -56,7 +58,7 @@ http://cdn.credonet.tv:1935/ctv/smil:livecredo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/AX5NsOv.jpg" group-title="Music",Credo TV
 http://telekomtv-ro.akamaized.net/shls/LIVE$CredoTV/6.m3u8/Level(1677721)?start=LIVE&end=END
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/DcR6zEw.jpg" group-title="Music",D Music
-https://happywatch99-lh.akamaihd.net/i/dmusic0822_live@704618/index_2500_av-p.m3u8?sd=10&rebase=on
+https://1765965335.rsc.cdn77.org/LS-50041-SIN-18/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Deejay TV IT" tvg-name="Deejay TV IT" tvg-logo="" group-title="Music",DeeJay TV
 http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
 #EXTINF:-1 tvg-id="Deejay TV IT" tvg-name="Deejay TV IT" tvg-logo="" group-title="Music",DeeJay TV
@@ -71,8 +73,6 @@ http://tv.artcom-venture.de:1322/dmf/tv_360.m3u8?fluxustv.m3u8
 http://tv.artcom-venture.de:1322/dmf/tv_720.m3u8
 #EXTINF:-1 tvg-id="Deutsches Musik Fernsehen DE" tvg-name="Deutsches Musik Fernsehen DE" tvg-logo="https://i.imgur.com/wUjgEUs.jpg" group-title="Music",Deutsches Musik Fernsehen
 https://tv.artcom-venture.de/dmf/tv_720.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.vod-logo.net/photos/ced60aa5db0a1c93f771b3d5bdea10d6.jpg" group-title="Music",Dil Se
-http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",Dil Se
 http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/XQ2vMHd.png" group-title="Music",DJing
@@ -123,6 +123,10 @@ http://streams.uitzending.tv/gigantfm/gigantfm/playlist.m3u8
 http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/oOeJUn4.jpg" group-title="Music",H!T Music Channel
 http://1mstream.digicable.hu/hitmusic/hitmusic.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JDYKQ2L.png" group-title="Music",Hip Hop TV
+http://41.223.30.250:5000/hiphoptv/hiphoptv/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JDYKQ2L.png" group-title="Music",Hip Hop TV
+http://connectiktv.ddns.net:5000/hiphoptv/hiphoptv/chunklist.m3u8
 #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" tvg-logo="" group-title="Music",HITV
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/onKYVw2.png" group-title="Music",Ibiza Global TV
@@ -191,12 +195,22 @@ http://137.74.205.201/live3/mm-3mbps.m3u8
 http://ott-cdn.ucom.am/s35/04.m3u8
 #EXTINF:-1 tvg-id="Mezzo Live HD FR" tvg-name="Mezzo Live HD FR" tvg-logo="https://i.imgur.com/ejEcufH.png" group-title="Music",Mezzo
 http://ott-cdn.ucom.am/s35/index.m3u8?fluxustv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/aDRs7fG.jpg" group-title="Music",MFM TV
+https://mfmtv.vedge.infomaniak.com/livecast/mfmtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" group-title="Music",Mix TV
 http://edge.linknetott.swiftserve.com/live/BSgroup/amlst:mixch/playlist.m3u8
 #EXTINF:-1 tvg-id="mm.bg" tvg-name="MM" tvg-logo="https://i.imgur.com/fX6Jprk.png" group-title="Music",MM
 http://pri.cdn.bg:2113/fls/mmtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/mntvmusic1.jpg" group-title="Music",MN TV Music
 http://mntv.livebox.co.in/musichls/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/fw2fTCA.jpg" group-title="Music",MOOZ Dance
+http://telekomtv-ro.akamaized.net/shls/LIVE$MoozDanceHD/14.m3u8/Level(545259)?start=LIVE&end=END
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/3alPZ8X.jpg" group-title="Music",MOOZ HD
+http://telekomtv-ro.akamaized.net/shls/LIVE$MoozHD/14.m3u8/Level(545259)?start=LIVE&end=END
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/K7jP9r1.jpg" group-title="Music",MOOZ Hits
+http://telekomtv-ro.akamaized.net/shls/LIVE$MoozHitsSD/14.m3u8/Level(545259)?start=LIVE&end=END
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/cgJNpv9.png" group-title="Music",MOOZ RO
+http://telekomtv-ro.akamaized.net/shls/LIVE$MoozRoSD/6.m3u8/Level(1677721)?start=LIVE&end=END
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/lBbbPI4.jpg" group-title="Music",Music 24
 https://keshethlslive-lh.akamaihd.net/i/24live_1@195271/index_1400_av-b.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/uYOmK3m.jpg" group-title="Music",Music Choice
@@ -237,6 +251,8 @@ http://www.evoiptv.com/hlsmvtv/hlsmvtv.m3u8?fluxustv.m3u8
 http://haititivi.com:8088/haititv/tele6NY/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/uisopuM.png" group-title="Music",Nago TV
 http://haititivi.com:8088/haititv/tele6NY/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/uisopuM.png" group-title="Music",Nago TV
+https://lakay.haitilive.net/hb/nagotv/web/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CvAhovd.png" group-title="Music",Netakole TV
 https://watch.haitilive.net/FreeTV/!/naktv/web/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.imgur.com/pK2p5ey.png" group-title="Music",NG
@@ -255,12 +271,16 @@ http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8
 http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8?codec=mpeg4
 #EXTINF:-1 tvg-id="o-tv" tvg-name="OTV" tvg-logo="https://i.imgur.com/wCrNtxp.png" group-title="Music",OTV
 http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8?codec=mpeg4&app=playlist
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/07/ptunes.png" group-title="Music",P Tunes
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Q81sjlO.png" group-title="Music",P Tunes
 https://streamidea.multitvsolution.in/live/PTunes-d/p4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/07/ptunes.png" group-title="Music",P Tunes Plus
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JfxnWxC.png" group-title="Music",P Tunes Plus
+https://streamidea.multitvsolution.in/live/PtunesPlus-d/p3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JfxnWxC.png" group-title="Music",P Tunes Plus
 https://streamidea.multitvsolution.in/live/PtunesPlus-d/p4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/PEPPERS.png" group-title="Music",Peppers TV
 http://live.wmncdn.net/peppers/live.stream/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/mvgRAZw.jpg" group-title="Music",Play TV
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.imgur.com/100uuWA.png" group-title="Music",Play TV
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",Portalfoxmix
@@ -325,6 +345,8 @@ http://flash5.streaming.xdevel.com/radionorbatv/smil:radionorbatv.smil/playlist.
 http://66.240.236.25:1936/ranchenato/smil:ranchenato.smil/chunklist_b1044100_sleng.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/raonuk.jpg" group-title="Music",Raonuk Punjab Dee
 http://195.181.169.151:8080/raonuk_pun/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/owjXT3r.png" group-title="Music",Rathergood Radio
+https://streamingserver001.viewtvgroup.com/kapanglivetv-playout-rathergoodradio/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/T2K6xqz.jpg" group-title="Music",Redlight Radio
 http://cdn-hlm-1.streamnerd.nl/live/redlightradio/playlist.m3u8
 #EXTINF:-1 tvg-id="Retro Music TV-CZ" tvg-name="Retro Music TV-CZ" tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" group-title="Music",Retro Music Television
@@ -409,6 +431,10 @@ http://139.59.166.48:8081/live/live3/playlist.m3u8
 http://de1se01.v2beat.live/playlist.m3u8?fluxustv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JWJ8nJB.jpg" group-title="Music",V2BEAT TV
 https://de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/bN6JLSn.jpg" group-title="Music",Vibe Music
+http://connectiktv.ddns.net:5000/vibetv/vibetv_360p+SD/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OOF6Z6K.png" group-title="Music",Vintage Music TV
+https://streamingserver002.viewtvgroup.com/kapanglivetv-playout-vintagemusictv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Nisf9Yt.png" group-title="Music",Wow Music
 http://103.199.161.254/Content/wowmusic/Live/Channel(WowMusic)/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Nisf9Yt.png" group-title="Music",Wow Music

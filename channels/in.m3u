@@ -151,10 +151,16 @@ https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytelcla.stream_all/playlis
 https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/08/cnbc_bajar_in.png" group-title="News",CNBC Bajar
 https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/3yumcV3.jpg" group-title="Business",CNBC TV18
+https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/3yumcV3.jpg" group-title="Business",CNBC TV18
+https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8?sd=10
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/yuppcomedytelugu.png" group-title="Movies",Comedy Telugu
 https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytelcom.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/Dsports-channel-hd-img_logo.jpg" group-title="Sport",D Sport
 http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/GCEj7Nv.png" group-title="",DD Kisan
+https://nicls2-lh.akamaihd.net/i/ddkisan_1@409176/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/dd_malayalam-1.png" group-title="Entertainment",DD Malayalam
 http://103.199.161.254/Content/ddmalayalam/Live/Channel(DDMalayalam)/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/dd_national.png" group-title="Entertainment",DD National
@@ -183,8 +189,6 @@ http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/master.m3u8
 https://5c75277727cd1.streamlock.net/dheeran/dheeran/chunklist_w1814131663.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/dheer.png" group-title="Entertainment",Dheeran TV
 http://acv.asianetmobiletvplus.com/channels/dheerantv_hjykdbbkxbzqjhwiilxdziveskvmspkt/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.vod-logo.net/photos/ced60aa5db0a1c93f771b3d5bdea10d6.jpg" group-title="Music",Dil Se
-http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",Dil Se
 http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Disney Junior
@@ -233,6 +237,8 @@ http://live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.
 https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Hiru_TV-Logo.png/220px-Hiru_TV-Logo.png" group-title="",Hiru TV
 http://cdncities.com/8012/8012/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/TCF8nBO.jpg" group-title="",Hungama Digital Network
+http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/45232.png" group-title="Comedy",IBC Comedy
 https://ibccomedy-origin.ibctamil.com/transcode/ibccomedy_std.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://saalaitv.com/logo/IBCPAKIDI.png" group-title="Kids",IBC Kids
@@ -403,9 +409,13 @@ https://hls3.newsnation.in/NS2_HTTP_LIVE/ngrp:mystream3_all/chunklist.m3u8
 https://streamer.multitvsolution.in/live/NewsXKannada-c/p4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="News",News18 Lokmat
 https://news18lokmat-lh.akamaihd.net/i/n18lokmat_1@178974/index_5_av-p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/07/ptunes.png" group-title="Music",P Tunes
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/7UoqVC0.jpg" group-title="News",NewsX
+https://streamidea.multitvsolution.in/live/NewsX-c/p4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Q81sjlO.png" group-title="Music",P Tunes
 https://streamidea.multitvsolution.in/live/PTunes-d/p4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/07/ptunes.png" group-title="Music",P Tunes Plus
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JfxnWxC.png" group-title="Music",P Tunes Plus
+https://streamidea.multitvsolution.in/live/PtunesPlus-d/p3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/JfxnWxC.png" group-title="Music",P Tunes Plus
 https://streamidea.multitvsolution.in/live/PtunesPlus-d/p4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/PEPPERS.png" group-title="Music",Peppers TV
 http://live.wmncdn.net/peppers/live.stream/index.m3u8
@@ -469,6 +479,8 @@ https://acv.asianetmobiletvplus.com/channels/ef22daf97d61acb4bf52376c4105ad02.sm
 https://acv.asianetmobiletvplus.com/webstreams/ef22daf97d61acb4bf52376c4105ad02.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://livetv.freeiptv.in/image.php?img=images/RPLUS.png" group-title="News",RPlus News
 http://edge-ap2.cloudfrontcdn.in:1935/edge1/smartsh4.stream_aac/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/9NsI8zT.jpg" group-title="",RSTV RajyaSabha
+http://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="",Saam TV
 http://8ovgdkm5rmpw-hls-live.wmncdn.net/31/saam/live.stream/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/safari_tv_in.png" group-title="Entertainment",Safari TV
@@ -585,6 +597,18 @@ http://161.0.157.5/PLTV/88888888/224/3221226832/index.m3u8
 http://livecdnh3.tvanywhere.ae/hls/zeeaflam/01.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/f46spWs.jpg" group-title="Movies",Zee Bangla Cinema
 https://ylive42-i.akamaihd.net/hls/live/690910/zeebanglacinema/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/qwr9ew/s/s32/01.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/qwr9ew/s/s32/01.m3u8?fluxustv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/qwr9ew/s/s32/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/qwr9ew/s/s32/index2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/session/031c454a-7d85-11e8-820c-c81f66f89318/qwr9ew/s/s32/index1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="",Zee Bioskop
+http://210.210.155.35/session/5d6f2928-d6cb-11e8-8e98-c81f66f89318/qwr9ew/s/s32/index2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Su1j0Uq.jpg" group-title="News",Zee Business
 https://ylive42-i.akamaihd.net/hls/live/690909/zeebusinessus/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/UomUSRn.jpg" group-title="Music",Zing USA

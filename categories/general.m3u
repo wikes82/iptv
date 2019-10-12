@@ -11,10 +11,14 @@ https://strm.yandex.ru/kal/360tv/360tv0.m3u8
 https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_2.m3u8?fluxustv.m3u8
 #EXTINF:-1 tvg-id="Cuatro ES" tvg-name="Cuatro ES" tvg-logo="https://i.imgur.com/09qP7mv.png" group-title="General",Cuatro
 https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Divinity_2012.png" group-title="General",Divinity
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OwsmMWu.png" group-title="General",Divinity
+https://mdslivehls-i.akamaihd.net/hls/live/571648/divinity/bitrate_1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OwsmMWu.png" group-title="General",Divinity
 https://mdslivehls-i.akamaihd.net/hls/live/571648/divinity/bitrate_3.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="General",Divinity
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OwsmMWu.png" group-title="General",Divinity
 https://mdslivehls-i.akamaihd.net/hls/live/571648/divinity/bitrate_4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OwsmMWu.png" group-title="General",Divinity
+https://pastebin.com/raw/DdABja2w
 #EXTINF:-1 tvg-id="Energy ES" tvg-name="Energy ES" tvg-logo="https://i.imgur.com/CQ77UnZ.png" group-title="General",Energy
 https://mdslivehlsb-i.akamaihd.net/hls/live/623617/energy/bitrate_1.m3u8
 #EXTINF:-1 tvg-id="Energy ES" tvg-name="Energy ES" tvg-logo="https://i.imgur.com/CQ77UnZ.png" group-title="General",Energy
@@ -71,7 +75,7 @@ http://rt-nw-arkh-htlive-lb.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8
 http://www.vradio.ru/hls/russia-1-live-2000/index.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl6" tvg-name="Россия 1 +6" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/rossiya_1.jpg" group-title="General",Россия 1 (+6)
 http://tv-online.gtrkchita.ru:8080/hls/r1-chita_360p.m3u8
-#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-name="РТР-Планета Европа" tvg-logo="https://i.imgur.com/kEhcpJd.jpg" group-title="General",РТР-Планета (Европа)
+#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-name="РТР-Планета Европа" tvg-logo="https://i.imgur.com/kEhcpJd.jpg" group-title="General",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 tvg-id="stv-by" tvg-name="СТВ Беларусь" tvg-logo="https://iptvx.one/icn/stv-by.png" group-title="General",СТВ
 http://212.98.171.116/HLS/ctvby/playlist.m3u8

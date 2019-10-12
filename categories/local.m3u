@@ -63,6 +63,10 @@ http://butv10-livestream.bu.edu/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8
 http://wowza.zuperdns.net:1935/zuperhosting.live.grupob.canal20zacatecas/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/laEKihH.jpg" group-title="Local",Canal 56
 https://cdn01.yowi.tv/VI76V4AZS4/live-1000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/laEKihH.jpg" group-title="Local",Canal 56
+https://cdn01.yowi.tv/VI76V4AZS4/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/aoyHRgJ.jpg" group-title="Local",Canal d
+https://cdn01.yowi.tv/DDDDDDDDDD/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Extremadura TV" tvg-logo="https://i.imgur.com/hOV89v8.jpg" group-title="Local",Canal Extremadura
 http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b1596000_DVR.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Extremadura TV" tvg-logo="https://i.imgur.com/hOV89v8.jpg" group-title="Local",Canal Extremadura
@@ -83,6 +87,8 @@ http://176.9.123.140:1935/channel9/channel9/playlist.m3u8
 http://dhtv5.csudh.edu:1935/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/0klufvz.jpg" group-title="Local",Diktyo 1
 http://www.hellasnet.tv/rest.live.hn/diktyo1r/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/V04dJhe.jpg" group-title="Local",Distrito TV
+https://cdn01.yowi.tv/KQRSDA7GDB/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ASNgEZI.jpg" group-title="Local",E TV
 http://176.9.30.75:1935/live/epsilon/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/BU8zXRW.jpg" group-title="Local",EITB
@@ -245,6 +251,8 @@ https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8
 http://ccma-tva-int-cellnex-live-hls.secure.footprint.net/int/ngrp:c33_web/chunklist_b1296000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/03/Screenshot_1.png" group-title="Local",Tamil MTV
 http://santhora.de.flash.glb.ipercast.net/santhora.de-live/tamilmtv/tamilmtv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/FwIIdKG.png" group-title="Local",Telearanda
+https://cdn01.yowi.tv/BBBBBBBBBB/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/UJrapXK.jpg" group-title="Local",TeleSafor
 http://video.telesafor.com/hls/video_high.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/UJrapXK.jpg" group-title="Local",TeleSafor
@@ -281,6 +289,8 @@ http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/play
 http://www.tv3.cat/directetv3cat/tv3catpc.m3u8
 #EXTINF:-1 tvg-id="TV3 Cat ES" tvg-name="TV3 Cat ES" tvg-logo="https://i.imgur.com/Tx5Z9Rr.png" group-title="Local",TV3 Catalunya
 https://ccma-tva-int-cellnex-live-hls.secure.footprint.net/int/ngrp:tv3_web/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/kczOdr8.jpg" group-title="Local",TV4 La Vall
+https://cdn01.yowi.tv/5RO3JQE6LN/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/5qwIslT.jpg" group-title="Local",TV7+ (Хмельницький)
 http://tv7plus.com/hls/tv7.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/5qwIslT.jpg" group-title="Local",TV7+ (Хмельницький)
@@ -325,6 +335,8 @@ http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 http://vanadium.uww.edu:1935/uwwlive/smil:uwwtv.smil/chunklist_w2102626622_b300000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/VAANAVIL_TV.png" group-title="Local",Vaanavil TV
 http://live.wmncdn.net/vaanaviltv/live.stream/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/K1EwXIh.png" group-title="Local",View TV - Berkshire
+https://streamingserver001.viewtvgroup.com/local-test2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.vsin.com/assets/1/6/logo-300x157-bg-1.png" group-title="Local",VSiN
 http://api.new.livestream.com/accounts/22774234/events/6897936/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/hcbtTcz.png" group-title="Local",VSiN
@@ -371,8 +383,6 @@ http://wxintribune-lh.akamaihd.net/i/WXINTribune_1@120151/master.m3u8
 https://wusa-lh.akamaihd.net/i/WUSA_Breaking_1@98930/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/3TA4xsx.png" group-title="Local",WXXV 25 (WXXV)
 http://api.new.livestream.com/accounts/22998687/events/6864865/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CdXieB6.png" group-title="Local",Zee Bioskop
-http://210.210.155.35/qwr9ew/s/s32/01.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/O1wCZTZ.jpg" group-title="Local",Öppna Kanalen
 http://83.140.64.214/edge/_451iw2h_/451iw2h/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://greektv.pbworks.com/w/file/fetch/51265944/LYCHNOS.PNG" group-title="Local",λύχνος TV
