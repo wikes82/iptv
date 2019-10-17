@@ -29,10 +29,6 @@ http://pontismmd.mmdlive.lldns.net/pontismmd/18c15984af7d4ec6ba1a3d13f2263608/ch
 http://wowza.zuperdns.net:1935/zuperhosting.live.grupob.canal20zacatecas/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/eFfX2fC.jpg" group-title="",Canal 4 Saltillo
 http://162.241.190.126:1935/live/canal4/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/wf62yb0.jpg" group-title="",Canal 6 Media TV
-http://gdl.tvstream.mx:8081/canal6/movil/chunks.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ewJjOWy.png" group-title="",Canal Iberoamericano
-http://200.57.164.179:1935/canaliberoamericano1/mp4:live.mp4/chunklist_w1287962499.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/PV6BVbi.png" group-title="",Canal Judicial
 http://dl-scjn.scjn.gob.mx/scjn/scjn.mp4/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/9BtSyV2.png" group-title="",Canal Mundo+
@@ -131,8 +127,6 @@ http://s5.mexside.net:1935/telemax/telemax/.m3u8
 http://mdstrm.com/live-stream-playlist_400/57b4dc126338448314449d0c.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/qf0jh1I.png" group-title="",Telesecundaria
 https://srvstream01.televisioneducativa.gob.mx/hls/telesecundaria.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/agRP5fK.png" group-title="",Telesecundaria +
-https://srvstream01.televisioneducativa.gob.mx/hls/telesecundariamas.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vzVvMA2.jpg" group-title="",TMTV
 http://streamingcws20.com:1935/tmtv/videotmtv/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Up3pu71.jpg" group-title="",TRC
