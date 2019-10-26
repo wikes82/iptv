@@ -1,4 +1,5 @@
 const util = require('./util')
+const escapeStringRegexp = require('escape-string-regexp')
 
 const debug = false
 const verbose = false
@@ -71,10 +72,34 @@ async function main() {
 
     const epgUrl = playlist.header.attrs['x-tvg-url']
     if(epgUrl && !buffer[epgUrl] && parseEpg) {
-      console.log(`Loading '${epgUrl}'...`)
-      const epg = await util.loadEPG(epgUrl)
-      console.log(`Adding '${epgUrl}' to buffer...`)
-      buffer[epgUrl] = epg
+      try {
+        console.log(`Loading '${epgUrl}'...`)
+        const epg = await util.loadEPG(epgUrl)
+        console.log(`Adding '${epgUrl}' to buffer...`)
+        buffer[epgUrl] = epg
+      } catch(e) {
+        console.log(`Could not load '${epgUrl}'`)
+      }
+    }
+
+    if(buffer[epgUrl]) {
+      console.log('Add missing tvg-id from EPG by channel title...')
+      for(let channel of channels) {
+        for(let channelId in buffer[epgUrl].channels) {
+          let c = buffer[epgUrl].channels[channelId]
+          for(let epgName of c.names) {
+            epgName = escapeStringRegexp(epgName)
+            channelTitle = channel.title.replace(/(fhd|hd|sd|高清)$/i, '').trim()
+            let regexp = new RegExp(`^${epgName}$`, 'i')
+            if(regexp.test(channelTitle)) {
+              if(!channel.id) {
+                channel.id = c.id
+                continue
+              }
+            }
+          }
+        }
+      }
     }
 
     if(buffer[epgUrl]) {
