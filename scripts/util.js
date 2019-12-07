@@ -6,7 +6,7 @@ const zlib = require("zlib")
 const epgParser = require('epg-parser')
 const urlParser = require('url')
 
-const supportedCategories = [ 'Auto','Business', 'Classic','Comedy','Documentary','Education','Entertainment', 'Family','Fashion','Food', 'General', 'Health', 'History', 'Hobby', 'Kids', 'Legislative','Lifestyle','Local', 'Movies', 'Music', 'News', 'Quiz', 'Religious','Sci-Fi', 'Shop', 'Sport', 'Travel', 'Weather', 'XXX' ]
+const supportedCategories = []
 
 const blacklist = [
   '80.80.160.168', // repeats on a loop

@@ -2,20 +2,15 @@ const util = require('./util')
 
 const debug = false
 const types = ['full', 'country', 'content']
-const categories = util.supportedCategories.map(c => c.toLowerCase())
+
 let stats = {
   countries: 0,
   channels: 0
 }
 
 let buffer = {}
-categories.push('other')
-categories.forEach(category => {
-  buffer[category] = []
-})
 
 let repo = {
-  categories: {},
   countries: {}
 }
 
@@ -34,13 +29,6 @@ function main() {
     util.createFile(filename, '#EXTM3U\n')
   }
 
-  for(let category of categories) {
-    const filename = `categories/${category}.m3u`
-    console.log(`Creating '${filename}'...`)
-    util.createFile(filename, '#EXTM3U\n')
-    const categoryName = util.supportedCategories.find(c => c.toLowerCase() === category) || 'Other'
-    repo.categories[category] = { category: categoryName, channels: 0, playlist: `<code>https://iptv-org.github.io/iptv/${filename}</code>` }
-  }
 
   for(let country of countries) {
     console.log(`Parsing '${country.url}'...`)
@@ -72,38 +60,12 @@ function main() {
         util.appendToFile(`index.${type}.m3u`, channel.toString())
       }
 
-      let category = channel.group.toLowerCase()
-      if(buffer[category]) {
-        buffer[category].push(channel)
-      } else {
-        buffer['other'].push(channel)
-      }
-
       stats.channels++
     }
 
     stats.countries++
   }
 
-  for(const category in buffer) {
-    let channels = util.sortByTitleAndUrl(buffer[category])
-    for(const channel of channels) {
-      if(!util.checkCache(channel.url)) {
-        util.appendToFile(`categories/${category}.m3u`, channel.toString())
-        util.addToCache(channel.url)
-        repo.categories[category].channels++
-      }
-    }
-  }
-
-  const categoriesTable = util.generateTable(Object.values(repo.categories), {
-    columns: [
-      { name: 'Category', align: 'left' },
-      { name: 'Channels', align: 'right' },
-      { name: 'Playlist', align: 'left' }
-    ]
-  })
-  util.createFile('./helpers/categories.md', categoriesTable)
   const countriesTable = util.generateTable(Object.values(repo.countries), {
     columns: [
       { name: 'Country', align: 'left' },
@@ -112,7 +74,7 @@ function main() {
       { name: 'EPG', align: 'left' }
     ]
   })
-  util.createFile('./helpers/countries.md', countriesTable)
+
 }
 
 main()
