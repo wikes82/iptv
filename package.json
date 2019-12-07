@@ -1,10 +1,10 @@
 {
   "name": "iptv",
   "scripts": {
-    "test": "node test/index.js",
-    "generate": "node helpers/generate.js",
-    "format": "node helpers/format.js",
-    "generate:readme": "node_modules/.bin/markdown-include ./helpers/markdown.json"
+    "test": "node scripts/test.js",
+    "format": "node scripts/format.js",
+    "generate": "node scripts/generate.js",
+    "update-readme": "node scripts/update-readme.js"
   },
   "author": "Arhey <free.arhey@gmail.com>",
   "private": true,
@@ -17,7 +17,6 @@
     "fluent-ffmpeg": "^2.1.2",
     "iptv-playlist-parser": "^0.3.0",
     "iso-639-1": "^2.1.0",
-    "markdown-include": "^0.4.3",
-    "xmldom": "^0.1.27"
+    "markdown-include": "^0.4.3"
   }
 }
