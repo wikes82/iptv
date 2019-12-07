@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1,China
+channels/cn.m3u
+#EXTINF:-1,Hong Kong
+channels/hk.m3u
+#EXTINF:-1,Taiwan
+channels/tw.m3u
