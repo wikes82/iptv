@@ -1,13 +1,13 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 const helper = require('./helper')
-const ffmpeg = require('fluent-ffmpeg')
+const iptvChecker = require('iptv-checker-module')
 
 const config = {
   debug: process.env.npm_config_debug || false,
   country: process.env.npm_config_country,
   exclude: process.env.npm_config_exclude,
-  timeout: 10
+  timeout: 10000
 }
 
 let stats = {
@@ -17,67 +17,44 @@ let stats = {
 }
 
 async function test() {
-
   const playlist = helper.parsePlaylist('index.m3u')
-  
+
   const countries = helper.filterPlaylists(playlist.items, config.country, config.exclude)
 
-  for(let country of countries) {
-
+  for (let country of countries) {
     stats.playlists++
 
     console.log(`Processing '${country.url}'...`)
 
-    const playlist = helper.parsePlaylist(country.url)
+    const options = {
+      timeout: config.timeout,
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      debug: config.debug,
+      omitMetadata: true,
+      parallel: 1,
+      itemCallback: item => {
+        if (!item.status.ok && item.status.reason !== 'Timed out') {
+          stats.failures++
 
-    for(let item of playlist.items) {
+          helper.writeToLog(country.url, item.status.reason, item.url)
 
-      stats.channels++
-
-      if(config.debug) { console.log(`Checking '${item.url}'...`) }
-
-      await new Promise(resolve => {
-        
-        const timeout = setTimeout(() => {
-
-          resolve()
-        
-        }, config.timeout * 1000)
-
-        ffmpeg(item.url, { timeout: 60 }).ffprobe((err) => {
-      
-          if(err) {
-            const message = helper.parseMessage(err, item.url)
-
-            stats.failures++
-
-            helper.writeToLog(country.url, message, item.url)
-
-            console.log(`${message} '${item.url}'`)
-          }
-
-          clearTimeout(timeout)
-
-          resolve()
-
-        })
-      })
-
+          console.log(`${item.status.reason} '${item.url}'`)
+        }
+      }
     }
+
+    await iptvChecker(country.url, options)
   }
 
-  if(stats.failures === 0) {
-
+  if (stats.failures === 0) {
     console.log(`OK (${stats.playlists} playlists, ${stats.channels} channels)`)
-    
   } else {
-
-    console.log(`FAILURES! (${stats.playlists} playlists, ${stats.channels} channels, ${stats.failures} failures)`)
+    console.log(
+      `FAILURES! (${stats.playlists} playlists, ${stats.channels} channels, ${stats.failures} failures)`
+    )
 
     process.exit(1)
-
   }
-
 }
 
 console.log('Test is running...')
